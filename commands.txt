@@ -1,0 +1,6 @@
+# Change display refresh rate to 60hz:
+xrandr --refresh 60
+
+# Change brightness level:
+sudo nano /sys/class/backlight/amdgpu_bl1/brightness 
+
