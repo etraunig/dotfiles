@@ -23,7 +23,7 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + q
+super + {k,q}
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
@@ -127,6 +127,10 @@ super + b
 # filemanager
 super + e
 	thunar
+
+# screenshot
+super + Print
+	flameshot gui
 
 # screensaver
 super + Escape
